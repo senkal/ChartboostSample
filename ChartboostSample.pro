@@ -18,7 +18,7 @@ ios {
 }
 
 android {
-  LIBS += -lAdmobPlugin
+  LIBS += -lChartboostPlugin
 }
 
 # Default rules for deployment.
