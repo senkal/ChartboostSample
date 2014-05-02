@@ -23,6 +23,8 @@ Window {
     // Use interstitial ads
     shouldRequestInterstitial: true
     shouldDisplayInterstitial: true
+    // Only set for testing purposes
+    shouldRequestInterstitialsInFirstSession: true
 
     // Do not use cross-promotion of games
     shouldRequestMoreApps: false
