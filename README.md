@@ -1,7 +1,7 @@
 Qt 5 Chartboost Sample
 ======================
 
-This sample demonstrates how to use the Chartboost SDK (Android 5.0.4 & iOS 5.0.3) within a Qt 5 app or game with the help of V-Play's Qt 5 Chartboost Plugin (1.1).
+This sample demonstrates how to use the Chartboost SDK (Android 5.0.4 & iOS 5.0.3) within a Qt 5 app or game with the help of [V-Play's Qt 5 Chartboost Plugin](http://plugins.v-play.net/plugins/chartboost/) (1.1).
 
 Usage
 -----
@@ -18,7 +18,7 @@ Usage
 
 - Open `vendor/google-play-services_lib` in a command line window and run
 
-      android update project --path . --target android-19
+        android update project --path . --target android-19
   
   or fix the path in `local.properties` by hand.
   
