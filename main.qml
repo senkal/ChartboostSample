@@ -33,54 +33,54 @@ Window {
 
     // Interstitial handlers
 
-    onDidCacheInterstitial: {
-      console.debug("DidCacheInterstitial at location:", location)
+    onInterstitialCached: {
+      console.debug("InterstitialCached at location:", location)
     }
 
-    onDidDisplayInterstitial: {
-      console.debug("DidDisplayInterstitial at location:", location)
+    onInterstitialDisplayed: {
+      console.debug("InterstitialDisplayed at location:", location)
     }
 
-    onDidClickInterstitial: {
-      console.debug("DidClickInterstitial at location:", location)
+    onInterstitialClicked: {
+      console.debug("InterstitialClicked at location:", location)
     }
 
-    onDidDismissInterstitial: {
-      console.debug("DidDismissInterstitial at location:", location)
+    onInterstitialDismissed: {
+      console.debug("InterstitialDismissed at location:", location)
     }
 
-    onDidCloseInterstitial: {
-      console.debug("DidCloseInterstitial at location:", location)
+    onInterstitialClosed: {
+      console.debug("InterstitialClosed at location:", location)
     }
 
-    onDidFailToLoadInterstitial: {
-      console.debug("DidFailToLoadInterstitial at location:", location, "error:", error)
+    onInterstitialFailedToLoad: {
+      console.debug("InterstitialFailedToLoad at location:", location, "error:", error)
     }
 
     // More apps page handlers
 
-    onDidCacheMoreApps: {
-      console.debug("DidCacheMoreApps at location:", location)
+    onMoreAppsCached: {
+      console.debug("MoreAppsCached at location:", location)
     }
 
-    onDidDisplayMoreApps: {
-      console.debug("DidDisplayMoreApps at location:", location)
+    onMoreAppsDisplayed: {
+      console.debug("MoreAppsDisplayed at location:", location)
     }
 
-    onDidClickMoreApps: {
-      console.debug("DidClickMoreApps at location:", location)
+    onMoreAppsClicked: {
+      console.debug("MoreAppsClicked at location:", location)
     }
 
-    onDidDismissMoreApps: {
-      console.debug("DidDismissMoreApps at location:", location)
+    onMoreAppsDismissed: {
+      console.debug("MoreAppsDismissed at location:", location)
     }
 
-    onDidCloseMoreApps: {
-      console.debug("DidCloseMoreApps at location:", location)
+    onMoreAppsClosed: {
+      console.debug("MoreAppsClosed at location:", location)
     }
 
-    onDidFailToLoadMoreApps: {
-      console.debug("DidFailToLoadMoreApps at location:", location, "error:", error)
+    onMoreAppsFailedToLoad: {
+      console.debug("MoreAppsFailedToLoad at location:", location, "error:", error)
     }
   }
 
