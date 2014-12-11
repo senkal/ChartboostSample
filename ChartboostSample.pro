@@ -14,7 +14,7 @@ ios {
   TARGET = ChartboostSample
 
   QMAKE_LFLAGS += -ObjC
-  LIBS += -L$$PWD/ios
+  LIBS += -F$$PWD/ios
 }
 
 android {
