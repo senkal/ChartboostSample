@@ -1,6 +1,6 @@
 import QtQuick 2.3
 import QtQuick.Window 2.1
-import VPlay.plugins.chartboost 1.1
+import VPlayPlugins.chartboost 1.1
 
 Window {
   visible: true
