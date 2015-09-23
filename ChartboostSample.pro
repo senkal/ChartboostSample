@@ -15,6 +15,15 @@ ios {
 
   QMAKE_LFLAGS += -ObjC
   LIBS += -F$$PWD/ios
+
+  # Chartboost framework
+  LIBS += -F$$PWD/ios
+  LIBS += -framework Chartboost
+
+  # Chartboost dependencies
+  LIBS += -framework SystemConfiguration
+  LIBS += -framework StoreKit
+  LIBS += -framework AdSupport
 }
 
 android {
