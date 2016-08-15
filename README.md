@@ -17,4 +17,4 @@ Usage
 - Optionally, open the `main.qml` file and replace the `appId` and `appSignature` properties with your own ids. If you do not have an Chartboost account yet, you can create a new one at http://www.chartboost.com/.
 
 
-Please also have a look at http://plugins.v-play.net/doc/vplay-plugins-chartboost/ to learn how to integrate the plugin into your own Qt 5 app.
+Please also have a look at http://v-play.net/doc/plugin-chartboost/ to learn how to integrate the plugin into your own Qt 5 app.
